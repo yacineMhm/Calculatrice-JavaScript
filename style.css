@@ -1,0 +1,91 @@
+
+
+body {
+    background: url(uwu.png)center/cover;
+    /* VH = 100 % de la taille de l'écran (viewport height) */
+    min-height: 100vh;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2.5;
+}
+
+.cadre{
+    min-height: 500px;
+    min-width: 340px;
+    background: rgba(255, 151, 212, 0.644);
+    /* Centrer une boite  */
+    margin: 0;
+    border: 2px solid rgba(240, 42, 164, 0.151);
+    border-radius: 20px;
+    box-shadow: 0px -1px 20px 15px #f56faf46;
+    padding: 15px;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ecran{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+
+.bouton-ligne{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.bouton{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+
+}
+
+.bouton:last-child{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    background: #d72880;
+}
+
+
+.bouton:hover{
+    background-color: inherit;
+}
+
+.bouton:active{
+    background-color: #fb78ffc0;
+}
+
+.bis{
+    flex-basis: 47%;
+}
+
+.zero{
+    flex-basis: 73%
+}
+
+
